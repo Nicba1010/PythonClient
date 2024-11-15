@@ -159,7 +159,7 @@ class KeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo(BaseModel):
 
         _obj = cls.model_validate({
             "keyword": obj.get("keyword"),
-            "spell": SpellInfo.from_dict(obj["spell"]) if obj.get("spell") is not None else None,
+            #"spell": SpellInfo.from_dict(obj["spell"]) if obj.get("spell") is not None else None,
             "location_code": obj.get("location_code"),
             "language_code": obj.get("language_code"),
             "search_partners": obj.get("search_partners"),
