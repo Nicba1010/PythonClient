@@ -129,7 +129,7 @@ class BaseSerpElementItem(BaseModel):
                              json.dumps(obj) + ". Discriminator property name: " + cls.__discriminator_property_name +
                              ", mapping: " + json.dumps(cls.__discriminator_value_class_map))
 
-from dataforseo_client.models.ai_overview_serp_element_item import AiOverviewSerpElementItem
+#from dataforseo_client.models.ai_overview_serp_element_item import AiOverviewSerpElementItem
 from dataforseo_client.models.carousel_serp_element_item import CarouselSerpElementItem
 from dataforseo_client.models.commercial_units_serp_element_item import CommercialUnitsSerpElementItem
 from dataforseo_client.models.compare_sites_serp_element_item import CompareSitesSerpElementItem
